@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /* fundo mais cartoon */
+    background: repeating-linear-gradient(
+        45deg,
+        #87CEFA,
+        #87CEFA 40px,
+        #6EC6FF 40px,
+        #6EC6FF 80px
+    );
+}
+
+/* container principal */
+.container{
+    width:750px;
+    padding:35px;
+    background:#fff;
+
+    border-radius:25px;
+    border:6px solid #000;
+
+    box-shadow:10px 10px 0px #000;
+
+    text-align:center;
+}
+
+/* titulo */
+h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+/* area personagem */
+.character-area{
+    background:#fff8dc;
+    border:5px solid #000;
+    border-radius:20px;
+
+    height:340px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom:25px;
+}
+
+.character-area img{
+    max-height:230px;
+    animation:float 3s infinite ease-in-out;
+}
+
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-12px);}
+    100%{transform:translateY(0);}
+}
+
+#characterName{
+    font-size:26px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+/* botões */
+button{
+    border:4px solid #000;
+    padding:14px 24px;
+
+    border-radius:15px;
+
+    background:#ff5252;
+    color:#fff;
+
+    font-size:20px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    box-shadow:5px 5px 0px #000;
+    transition:0.2s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+
+button:active{
+    transform:translateY(3px);
+    box-shadow:2px 2px 0px #000;
+}
+
+/* busca */
+.search{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+}
+
+.search input{
+    flex:1;
+
+    padding:12px;
+
+    border-radius:12px;
+    border:4px solid #000;
+
+    font-size:18px;
+}
+
+/* cards */
+.cards-area{
+    margin-top:30px;
+}
+
+.cards-title{
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:15px;
+}
+
+.card{
+    background:#fff;
+
+    border:4px solid #000;
+    border-radius:15px;
+
+    padding:12px;
+
+    text-align:center;
+
+    box-shadow:4px 4px 0px #000;
+
+    cursor:pointer;
+
+    transition:0.2s;
+}
+
+.card img{
+    width:70px;
+    height:70px;
+}
+
+.card p{
+    font-size:18px;
+    margin-top:6px;
+}
+
+.card:hover{
+    transform:scale(1.1) rotate(-3deg);
+}

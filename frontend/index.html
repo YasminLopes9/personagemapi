@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎭 Explorador de Personagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎭 Explorador de Personagens</h1>
+        <p class="subtitle">Descubra personagens famosos consumindo nossa API</p>
+
+        <!-- Área da imagem (mantém espaço grande) -->
+        <div class="character-area">
+            <img src="" alt="Personagem" id="characterImage">
+            <div id="characterName"></div>
+        </div>
+
+        <!-- Botão aleatório -->
+        <div class="controls">
+            <button id="randomBtn">🎲 Sortear Personagem</button>
+        </div>
+
+        <!-- Busca -->
+        <div class="search">
+            <input
+                type="text"
+                id="characterInput"
+                placeholder="Digite um personagem..."
+            >
+            <button id="searchBtn">🔎 Buscar</button>
+        </div>
+
+        <!-- Lista de personagens -->
+        <div class="characters-list">
+            <h3>Personagens disponíveis</h3>
+
+            <div class="characters">
+                <span>🦇 Batman</span>
+                <span>🐭 Mickey</span>
+                <span>🐰 Pernalonga</span>
+                <span>🐶 Scooby-Doo</span>
+                <span>🐱🐭 Tom e Jerry</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
