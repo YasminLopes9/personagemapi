@@ -1,46 +1,85 @@
+# 📌 Projeto API - Personagens de Desenhos
 
-## Integrantes da dupla
-- Ana julia Lima Dos Santos  
-- Yasmin Lopes Souza
+## 👥 Integrantes da dupla
 
-## Tema da API
-personagens de desenhos animados.
-
-## Descrição do projeto
-Neste projeto desenvolvemos uma API simples que mostra alguns personagens de desenhos animados. 
-
-Também criamos **front-end** que personaliza o que vai aparecer na tela e a forma de como vai ser mostrado .
-
-O objetivo do trabalho foi praticar a criação de uma API, entender como funciona a comunicação entre backend e frontend.
-
-## Tecnologias utilizadas
-Para desenvolver o projeto utilizamos:
-- Node.js
-- Express
-- JavaScript
-- HTML
-- CSS
-- JSON
+* Ana Julia Lima dos Santos
+* Yasmin Lopes Souza
 
 
-## Como executar o Backend
 
-1. Abrir o terminal no computador.
-2. Entrar na pasta backend do projeto.
-3. Executar o comando para instalar as dependências:
-   npm install
+## 🎯 Tema da API
 
-4. Depois executar o servidor com o comando:
-   node server.js
-5. Após isso a API estará rodando na porta **3000**.
+Personagens de desenhos animados.
 
 
-## Como executar o Frontend
 
-1. Entrar na pasta frontend do projeto.
-2. Abrir o arquivo index.html no navegador.
-3. A página vai carregar e fazer a requisição para a API.
-4. Se o backend estiver rodando corretamente, os dados dos personagens aparecerão na tela.
+## 📖 Descrição do projeto
+
+Neste projeto desenvolvemos uma API simples que fornece informações sobre personagens de desenhos animados.
+
+Além disso, criamos um **front-end** responsável por consumir essa API e exibir os dados de forma visual e organizada na tela.
+
+O objetivo do trabalho foi praticar:
+
+* Criação de API com Node.js
+* Comunicação entre backend e frontend
+* Manipulação de dados em formato JSON
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* Node.js
+* Express
+* JavaScript
+* HTML
+* CSS
+* JSON
+
+## 🚀 Como executar o Backend
+
+1. Abrir o terminal
+2. Entrar na pasta do backend:
+
+```
+cd backend
+```
+
+3. Instalar as dependências:
+
+```
+npm install
+
+4. Iniciar o servidor:
+node server.js
+
+5. A API estará rodando em:
+
+http://localhost:3000
+
+## 💻 Como executar o Frontend
+
+1. Entrar na pasta do frontend:
+cd frontend
+
+2. Abrir o arquivo:
+index.html
 
 
-LINK PAGES :https://yasminlopes9.github.io/personagemapi/
+3. O navegador irá carregar a aplicação e consumir a API automaticamente.
+
+
+
+## 🌐 Endereço da API utilizado nos testes
+
+http://localhost:3000
+
+
+## 📌 Funcionalidades
+
+* 🎲 Sortear personagem aleatório
+* 🔍 Buscar personagem pelo nome
+* 🖼️ Exibir imagem do personagem
+* 📋 Listar personagens disponíveis
+
+https://yasminlopes9.github.io/personagemapi/
