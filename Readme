@@ -41,3 +41,6 @@ Para desenvolver o projeto utilizamos:
 2. Abrir o arquivo index.html no navegador.
 3. A página vai carregar e fazer a requisição para a API.
 4. Se o backend estiver rodando corretamente, os dados dos personagens aparecerão na tela.
+
+
+LINK PAGES :https://yasminlopes9.github.io/personagemapi/
